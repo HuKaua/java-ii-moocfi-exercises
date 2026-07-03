@@ -9,8 +9,10 @@ public class Main {
         TodoList list = new TodoList();
         Scanner scanner = new Scanner(System.in);
 
-        UserInterface ui = new UserInterface(list, scanner);
-        ui.start();
+       UserInterface ui = new UserInterface(list, scanner);
+       ui.start();
+         
 
-    }
+         
+    }    
 }
